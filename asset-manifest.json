@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Foodi/static/css/main.609e2660.css",
+    "main.js": "/Foodi/static/js/main.76dcbf70.js",
+    "static/js/453.1bf1018c.chunk.js": "/Foodi/static/js/453.1bf1018c.chunk.js",
+    "static/media/image.png": "/Foodi/static/media/image.b14af8fc465d2e3ee129.png",
+    "index.html": "/Foodi/index.html",
+    "main.609e2660.css.map": "/Foodi/static/css/main.609e2660.css.map",
+    "main.76dcbf70.js.map": "/Foodi/static/js/main.76dcbf70.js.map",
+    "453.1bf1018c.chunk.js.map": "/Foodi/static/js/453.1bf1018c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.609e2660.css",
+    "static/js/main.76dcbf70.js"
+  ]
+}
