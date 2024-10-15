@@ -1,6 +1,7 @@
 import { useState,useEffect } from "react";
 import { SWIGGY_API_URL } from "../constant/Constant";
 import RestaurantCard from "./RestaurantCard";
+import SimmerUi from "./SimmerUi";
 import { Link } from "react-router-dom";
 const Body=()=>{
   const[restaurants,setRestaurants]=useState();
@@ -46,7 +47,7 @@ const Body=()=>{
     return <>
      <input className="border-2 my-4 mx-[50px]" onChange={setSerachValue} value={serchTxt}></input> <button className="text-green-800 font-bold" onClick={getSearchValue}>Search</button>
       <div className="flex flex-wrap m-4 p-4">
-      {filterRestaurant?.map((val,ind)=>{
+      {filterRestaurant?.length==0?<SimmerUi/>:filterRestaurant?.map((val,ind)=>{
        
         return <Link to={`/restaurantCard/${val.info.id}`}><RestaurantCard restaurant={val?.info} /></Link>
       })}

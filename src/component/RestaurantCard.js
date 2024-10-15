@@ -1,6 +1,6 @@
 import { IMG_CDN_URL } from "../constant/Constant";
 const RestaurantCard=(props)=>{
-    console.log(props);
+    
     let {sla,areaName,name,avgRating,cloudinaryImageId,costForTwo,id,open,locality}=props.restaurant;
 
 

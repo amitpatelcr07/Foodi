@@ -3,20 +3,25 @@ import useRestaurant from "../utils/useRestaurant";
 import { RESTAURANT_MENU_URL } from "../constant/Constant";
 import { useEffect } from "react";
 import { IMG_CDN_URL } from "../constant/Constant";
+import SimmerUi from "./SimmerUi";
 const RestaurantMenu=()=>{
      let {resId}=useParams();
-     console.log(resId); 
+     
      const restaurant=useRestaurant(resId);
-     console.log(restaurant[1])
-
+     
+     if(restaurant?.length==0){
+        return <SimmerUi/>
+     }
+   
     return <>
+          
         <div className="border-4 border-s-8 m-8 ">
              <tr className="font-black text-xl"><td>{restaurant[0]?.name}</td></tr> 
            <tr>
             <td>⭐ {restaurant[0]?.avgRating}</td>
             <td className="text-base font-normal">({(restaurant[0]?.totalRatingsString)})</td>
             <td>{restaurant[0]?.costForTwoMessage}</td>
-           </tr>
+           </tr>                                         
            <tr><td>{restaurant[0]?.cuisines[0]}</td>
            <td>{restaurant[0]?.cuisines[1]}</td></tr>
            <tr><td>Outlet {restaurant[0]?.locality}</td>

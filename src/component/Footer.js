@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center">
           {/* Company Information */}
           <div className="mb-4 sm:mb-0 text-center sm:text-left">
-            <h2 className="text-xl font-bold">Your Company</h2>
+            <h2 className="text-xl font-bold">Amit Company</h2>
             <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
           </div>
 
