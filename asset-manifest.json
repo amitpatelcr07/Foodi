@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Foodi/static/css/main.609e2660.css",
-    "main.js": "/Foodi/static/js/main.76dcbf70.js",
-    "static/js/453.1bf1018c.chunk.js": "/Foodi/static/js/453.1bf1018c.chunk.js",
+    "main.css": "/Foodi/static/css/main.4ed7de87.css",
+    "main.js": "/Foodi/static/js/main.db492a93.js",
+    "static/js/453.0e4da5f5.chunk.js": "/Foodi/static/js/453.0e4da5f5.chunk.js",
     "static/media/image.png": "/Foodi/static/media/image.b14af8fc465d2e3ee129.png",
+    "static/media/index.cjs": "/Foodi/static/media/index.1282334337c6cac7deca.cjs",
     "index.html": "/Foodi/index.html",
-    "main.609e2660.css.map": "/Foodi/static/css/main.609e2660.css.map",
-    "main.76dcbf70.js.map": "/Foodi/static/js/main.76dcbf70.js.map",
-    "453.1bf1018c.chunk.js.map": "/Foodi/static/js/453.1bf1018c.chunk.js.map"
+    "main.4ed7de87.css.map": "/Foodi/static/css/main.4ed7de87.css.map",
+    "main.db492a93.js.map": "/Foodi/static/js/main.db492a93.js.map",
+    "453.0e4da5f5.chunk.js.map": "/Foodi/static/js/453.0e4da5f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.609e2660.css",
-    "static/js/main.76dcbf70.js"
+    "static/css/main.4ed7de87.css",
+    "static/js/main.db492a93.js"
   ]
 }
